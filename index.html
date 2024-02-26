@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive From using HTML and CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="main">
+            <h1 class="form-heading">Registration Form</h1>
+
+            <div class="input-container">
+                <div class="input-box">
+                    <input type="text" placeholder="Username" id="user">
+                    <p id="userError"></p>
+                </div>
+
+                <div class="input-box">
+                    <input type="email" placeholder="E-mail" id="email">
+                    <p id="emailError"></p>
+                </div> 
+            </div>
+
+            <div class="input-container">
+                <div class="input-box">
+                    <input type="text" placeholder="Passoword" id="pass">
+                    <p id="pasError"></p>
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Confirm passoword" id="con-pass">
+                    <p id="conPasError"></p>
+                </div>
+            </div>
+
+            <div class="input-container">
+                <div class="input-box">
+                    <input type="number" placeholder="Phone" id="phone">
+                    <p id="phoneError"></p>
+                </div>
+                <div class="input-box"> 
+                    <input type="text" placeholder="Address" id="address">
+                    <p id="addressError"></p>
+                </div>
+            </div>
+
+            <div class="button">
+               <input type="submit" value="Sumbit" class="sumbit">
+            </div>
+            <p id="mainError"></p>
+        </div> 
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html> 
